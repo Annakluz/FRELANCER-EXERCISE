@@ -128,6 +128,7 @@ nav > a{
     text-align: center;
 }
 
+
 .title-port {
     font-size: 75px;
     
@@ -193,4 +194,26 @@ nav > a{
 
 .img-port{
     width: 100%
+}
+
+#section2{
+    margin-bottom: 100px;
+}
+
+.title-about{
+    font-size: 50px;
+    margin-top: 93px;
+}
+
+.parr-about{
+    font-size: 20px;
+    
+}
+
+.space{
+    width: 30%
+}
+
+#text-about {
+    display: inline-block;
 }
