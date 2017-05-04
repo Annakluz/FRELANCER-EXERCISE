@@ -1,3 +1,128 @@
 /*
  * Estilos reutilizables
  */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+   
+    margin: 0px auto;
+}
+
+.row:before, .row:after{
+    content: " ";
+    display: table;
+}
+
+.row:after {
+    clear: both;
+}
+
+header{
+  position: fixed;
+}
+nav{
+  background-color: #2C3E50;
+}
+nav > a{
+  font-weight: 700;
+}
+
+[class*="parr-"]{
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+[class*="title-"]{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+[class*="col-"]{
+    min-height: 7px;
+    padding: 12px;
+    float: left;
+}
+
+
+.col-1 {
+    width: 8.333%;
+    
+}
+
+.col-2 {
+    width: 16.666%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.333%;
+}
+
+.col-5 {
+    width: 41.666%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.333%;
+}
+
+.col-8 {
+    width: 66.666%;    
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.333%;
+}
+
+.col-11 {
+    width: 91.666%;
+}
+
+.col-12 {
+    width: 100%
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.imgSeccion1 {
+    width: 100%
+    
+}
+
+.title-nav{
+    font-size: 25px;
+    text-align: center;
+}
+
+.title-nav2{
+    font-size: 15px;
+    margin: 10px;
+    text-align: center;
+}
