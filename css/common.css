@@ -246,7 +246,9 @@ nav > a{
     margin-bottom: 200px;
 }
 
-
+.footer2{
+    background-color: #233140;
+}
 
 .btn-form{
     font-family: 'Lato', sans-serif;
@@ -266,7 +268,8 @@ nav > a{
 }
 .parr-footer{
     font-size: 20px;
-    width:90%
+    width:90%;
+    margin-left: 10px;
 }
 
 .icon-footer{
