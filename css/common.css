@@ -225,3 +225,33 @@ nav > a{
     border-color: white;
     border: 1px solid white;
 }
+
+.border-line{
+    border-top: 1px solid #B3CDFF;
+}
+
+.input-form{
+    width: 100%;
+    font-size: 25px;
+    margin: 5px;
+    font-family: 'Lato', sans-serif;
+    border-style: none;
+}
+
+#inputMsg{
+    margin-bottom: 200px;
+}
+
+.btn-form{
+    font-family: 'Lato', sans-serif;
+    background-color: #18BC9C;
+    font-size: 25px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 15px
+}
+
+.btn-form:hover{
+    background-color: #128F76;
+}
