@@ -238,9 +238,15 @@ nav > a{
     border-style: none;
 }
 
+.footer{
+    background-color: #2C3E50;
+}
+
 #inputMsg{
     margin-bottom: 200px;
 }
+
+
 
 .btn-form{
     font-family: 'Lato', sans-serif;
@@ -254,4 +260,19 @@ nav > a{
 
 .btn-form:hover{
     background-color: #128F76;
+}
+.title-footer{
+    font-size: 22px;
+}
+.parr-footer{
+    font-size: 20px
+}
+
+.icon-footer{
+    color: white
+}
+
+.circle{
+    border-radius: 100% 100%;
+    width: 15%;
 }
