@@ -265,7 +265,8 @@ nav > a{
     font-size: 22px;
 }
 .parr-footer{
-    font-size: 20px
+    font-size: 20px;
+    width:90%
 }
 
 .icon-footer{
@@ -275,4 +276,8 @@ nav > a{
 .circle{
     border-radius: 100% 100%;
     width: 15%;
+}
+
+.logos{
+    color: white
 }
