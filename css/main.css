@@ -30,10 +30,17 @@ img {
 
 
 a {
-  color: #373B47;
+  color: white;
   text-decoration: none;
 }
 
 a:hover {
-  color: #E95853;
+  color: #227950;
+}
+
+.footie {
+    color: #18BC99;
+}
+.footie:hover{
+    text-decoration: underline;
 }
